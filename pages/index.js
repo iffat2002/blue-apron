@@ -20,8 +20,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div className="h-screen">
+      <main className="h-screen ">
+        <div className="h-screen w-screen ">
           <FirstSec />
           <GetStarted />
           <SaveTime />
@@ -30,7 +30,7 @@ export default function Home() {
           <Footer />
         </div>
       </main>
-      ;
+      
     </>
   );
 }

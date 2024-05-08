@@ -5,12 +5,12 @@ import Image from "next/image"
 const SaveTime = () => {
   return (
     <div className='bg-[#00a0df]'>
-        <div className=' text-center w-[65%] m-auto p-20'>
-         <h1 className=" mt-8 text-white text-3xl font-bold tracking-[6px] font-cerapro">
+        <div className=' text-center w-[65%]  max-sm:w-[90%] m-auto py-20'>
+         <h1 className=" mt-8 text-white text-3xl max-md:text-2xl max-sm:text-xl font-bold tracking-[6px]  max-sm:tracking-[4px] font-cerapro">
          SAVE TIME. EAT WELL.
           </h1>
           </div>
-          <div className="text-white flex w-10/12 max-md:flex-row m-auto gap-10 mb-16 text-sm ">
+          <div className="text-white flex w-10/12 max-md:flex-col m-auto gap-10 mb-16 text-sm  max-md:w-[50%] ">
         <div className='text-center'>
           <Image
           className="inline-block"

@@ -5,11 +5,11 @@ const ViewPlan = () => {
     <div className='h-screen w-full
     '>
            <div className="bg-background-food w-full h-full flex bg-cover bg-center">
-<div className='w-[50%] bg-white rounded-lg h-[50%] m-auto text-center p-16 '>
-<h1 className=" text-[#00a0df] text-[40px] font-extrabold  font-serif">
+<div className='w-[50%] max-md:w-[80%] max-sm:w-[90%] bg-white rounded-lg h-[50%] m-auto  flex justify-center p-5 flex-col text-center '>
+<h1 className=" text-[#00a0df] text-[40px] max-md:text-[30px] font-extrabold  font-serif">
 Get started for as little as
           </h1>
-          <h1 className=" text-[#002c9b] text-4xl font-bold tracking-[6px] font-cerapro">
+          <h1 className=" text-[#002c9b] text-4xl max-md:text-2xl font-bold tracking-[6px] font-cerapro">
           $7.99 PER SERVING
           </h1>
           <Link href="/">

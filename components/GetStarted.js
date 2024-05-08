@@ -3,26 +3,26 @@ import Link from "next/link";
 import Image from "next/image";
 const GetStarted = () => {
   return (
-    <div>
-      <div className="text-center w-[65%] m-auto p-20">
-        <h1 className="  text-[#00a0df] text-[43px] font-bold  font-serif">
+    <div className="w-screen">
+      <div className="text-center m-auto pt-20">
+        <h1 className="  text-[#00a0df] text-[43px] font-bold max-md:text-3xl max-sm:text-2xl font-serif">
           Get started for as little as
         </h1>
-        <h1 className="  text-[#002c9b] text-3xl font-bold tracking-[5px] font-cerapro">
+        <h1 className="  text-[#002c9b] text-3xl max-md:text-2xl max-sm:base  max-sm:text-xl font-bold tracking-[5px] font-cerapro">
           $7.99 PER SERVING
         </h1>
-        <p className="my-10 text-lg   text-gray-600">
+        <p className="my-10 text-lg  max-sm:text-sm m-auto w-[65%] max-md:w-[80%] text-gray-600">
           With high-quality ingredients packed into every box, these delicious
           recipes deliver on value. If you do the math, making these recipes is
           cheaper with us than doing it on your own.
         </p>
         <Link href="/">
-          <button className="rounded-full text-xs tracking-wider font-bold font-cerapro text-white h-11 w-44 bg-[#002c9b]">
+          <button className="rounded-full text-xs tracking-wider font-bold font-cerapro text-white h-11 w-44 max-md:w-[80%] bg-[#002c9b]">
             VIEW PLANS
           </button>
         </Link>
       </div>
-      <div className="flex w-[774px] max-md:flex-row m-auto gap-10 mb-12 text-sm text-gray-600 ">
+      <div className="flex w-[80%] py-20 max-md:flex-col max-md:w-[50%] max-md:gap-5 m-auto gap-10  text-sm text-gray-600 max-md:pt-10 ">
         <div className="flex gap-4">
           <Image
           className="inline-block"

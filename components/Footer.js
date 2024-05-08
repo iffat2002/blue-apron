@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image"
 const Footer = () => {
   return (
-    <footer className="bg-[#002c9b] flex justify-center items-center flex-col p-20">
+    <footer className="bg-[#002c9b] flex justify-center items-center flex-col py-20">
       <div className="flex justify-center gap-5">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -50,13 +50,13 @@ const Footer = () => {
           />
         </svg>
       </div>
-      <h1 className=" mt-2 text-white text-sm font-semibold tracking-[1px] font-cerapro">
+      <h1 className=" mt-2 w-max text-white text-sm font-semibold tracking-[1px] font-cerapro">
         COOK ALONG WITH US
       </h1>
       <p className=" mt-8 mb-3 text-white text-sm font-semibold tracking-[1px] font-cerapro">
         © Blue Apron, LLC 2023
       </p>
-      <ul className="text-sm flex text-gray-200 gap-4 ">
+      <ul className="text-sm max-sm:text-xs flex text-gray-200 gap-4 ">
         <Link href="/" className="hover:underline">
           <li>Privacy</li>
         </Link>
@@ -68,7 +68,7 @@ const Footer = () => {
           Do Not "Sell" My Info<li></li>
         </Link>
       </ul>
-      <p className="text-sm text-white mt-6">If you are using a screen reader and are having problems using this website, please call 1-844-462-8299 for assistance. </p>
+      <p className="text-sm text-white mt-6 w-[90%] text-center mb-10 m-auto">If you are using a screen reader and are having problems using this website, please call 1-844-462-8299 for assistance. </p>
       <Image src="https://v.fastcdn.co/u/d1da2199/53672418-0-BA-logo-Horizontal.svg" width={132} height={46} alt="logo"></Image>
     </footer>
   );
