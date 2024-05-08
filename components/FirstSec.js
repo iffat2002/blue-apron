@@ -25,7 +25,7 @@ const FirstSec = () => {
             options for every lifestyle, including vegetarian, carb-conscious,
             Heat & Eat, and more.
           </p>
-          <Link href="/">
+          <Link href="/pricing">
             <button className="rounded-full text-xs tracking-wider font-bold font-cerapro text-white h-11 mt-8 max-sm:mt-4  max-sm:h-10 w-40 bg-[#002c9b]">
               VIEW PLANS
             </button>
