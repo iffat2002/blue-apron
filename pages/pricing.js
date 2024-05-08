@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar'
 import PersonalizeMeal from '@/components/PersonalizeMeal'
 const pricing = () => {
   return (
-    <div>
+    <div >
         <Navbar />
         <PersonalizeMeal />
     </div>
